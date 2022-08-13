@@ -1,7 +1,6 @@
 import React from 'react';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import {useContext} from 'react';
-
 import { servicesData } from '../../data/servicesData';
 
 import './Services.css'
