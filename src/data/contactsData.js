@@ -4,5 +4,5 @@ export const contactsData = {
     address: 'Addis Ababa, Ethiopia ',
     
 
-    sheetAPI: ''
+    sheetAPI: 'https://sheetdb.io/api/v1/0cisx36u74wh1'
 }
