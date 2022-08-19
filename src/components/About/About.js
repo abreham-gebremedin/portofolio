@@ -30,6 +30,18 @@ function About() {
                         alt="" 
                     />
                 </div>
+                <div className="about-img">
+                    <img 
+                        src={aboutData.image === 1 ? theme.aboutimg1 : theme.aboutimg2}  
+                        alt="" 
+                    />
+                </div>
+                <div className="about-img">
+                    <img 
+                        src={aboutData.image === 1 ? theme.aboutimg1 : theme.aboutimg2}  
+                        alt="" 
+                    />
+                </div>
             </div>
         </div>
 
