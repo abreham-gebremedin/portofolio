@@ -1,3 +1,4 @@
+
 .landing {
   height: 100vh;
   display: flex;
@@ -63,7 +64,7 @@
 }
 
 .lcr--content {
-  width: 45%;
+  width: 65%;
   margin-right: 7rem;
   font-family: var(--primaryFont);
   font-style: normal;
@@ -88,6 +89,12 @@
   font-weight: 500;
   font-size: 1.15rem;
   opacity: 0.7;
+  text-align:justify;
+  text-justify: inter-word;
+  text-align-last:left;
+/* for IE9 */
+ -ms-text-align-last:center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .lcr-buttonContainer {
@@ -120,6 +127,12 @@
     margin-bottom: 1rem;
     font-weight: 500;
     font-size: 1rem;
+    text-align:justify;
+    text-justify: inter-word;
+    text-align-last:left;
+  /* for IE9 */
+   -ms-text-align-last:center;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .lcr-buttonContainer {
@@ -202,10 +215,16 @@
     text-align: center;
   }
   .lcr--content p {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     text-align: center;
-    margin: 0 auto;
+    margin: 1 auto;
     width: 90%;
+    text-align:justify;
+    text-justify: inter-word;
+    text-align-last:left;
+  /* for IE9 */
+   -ms-text-align-last:center;
+    font-family: 'Times New Roman', Times, serif;
   }
   .lcr-buttonContainer {
     margin: 0 auto;

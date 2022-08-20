@@ -69,7 +69,7 @@ function Landing() {
 
     return (
         <div className='landing'>
-            <div className='landing--container'>
+            <div className='landing--container' >
                 <div
                     className='landing--container-left'
                     style={{ backgroundColor: theme.primary }}
@@ -144,7 +144,7 @@ function Landing() {
                 </div>
                 <img
                     src={headerData.image}
-                    alt=''
+                    alt='Profile'
                     className='landing--img'
                     style={{
                         opacity: `${drawerOpen ? '0' : '1'}`,
@@ -162,6 +162,8 @@ function Landing() {
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
                         <p>{headerData.desciption}</p>
+                        <p>{headerData.desciption1}</p>
+ 
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
@@ -189,6 +191,7 @@ function Landing() {
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     );
