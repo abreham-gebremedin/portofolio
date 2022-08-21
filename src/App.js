@@ -12,7 +12,7 @@ function App() {
 
   const { theme } = useContext(ThemeContext);
 
-  console.log("%cAbreham Gebremedin PORTFOLIO", `color:${theme.primary}; font-size:50px`);
+  console.log("%cAbreham Gebremedin PORTFOLIO Website", `color:${theme.primary}; font-size:50px`);
   // console.log = console.warn = console.error = () => {};
 
   return (
