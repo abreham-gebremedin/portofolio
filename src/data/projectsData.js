@@ -76,7 +76,7 @@ export const projectsData = [
         demo: 'https://classy-stroopwafel-70e722.netlify.app',
         image: one
     },
-    {
+    {  
         id: 8,
         projectName: 'Mobile money',
         projectDesc: 'This project was developed for mobile money application, we have used Spring Boot Java framework for backend development',
