@@ -243,15 +243,53 @@
 }
 @media (max-width: 370px) {
   .lcr--content {
-    margin-top: 60%;
+    margin-top: 5%;
   }
+  .lcr--content h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .lcr--content h6 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .landing--img {
+    --img-size: 100px;
+    left: 50%;
+    top: 20%;
+  }
+  .lcr--content p {
+    font-size: 0.8rem;
+    /* text-align: center; */
+    padding: 0px;
+    margin: 0px;
+    /* margin: 0 1; */
+    width: 100%;
+    text-align:justify;
+    /* text-justify: inter-word; */
+    text-align-last:left;
+  /* for IE9 */
+   /* -ms-text-align-last:center; */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .lcr-buttonContainer {
+    margin-top: 1rem;
+    flex-direction: column;
+    width: 200px;
+    height: 60px;
+    align-items: flex-start;
+  }
+  
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
   .landing {
-    height: fit-content;
+    height:150%;
   }
 
+  .landing--container-right {
+    height:fit-content;
+  }
   .landing--img {
     --img-size: 150px;
     left: 50%;
