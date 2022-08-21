@@ -42,7 +42,7 @@ function Blog() {
 
     return (
         <>
-            {blogData.length > 0 && (
+            {/* {blogData.length > 0 && (
                 <div className="blog" id="blog" style={{backgroundColor: theme.secondary}}>
                     <div className="blog--header">
                         <h1 style={{color: theme.primary}}>Blog</h1>
@@ -75,7 +75,7 @@ function Blog() {
                         )}
                     </div>
                 </div>
-            )}
+            )} */}
 
         </>
     )

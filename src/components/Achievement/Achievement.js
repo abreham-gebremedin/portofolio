@@ -10,7 +10,7 @@ function Achievement() {
     const { theme } = useContext(ThemeContext);
     return (
         <>
-            {achievementData.achievements.length > 0 && (
+            {/* {achievementData.achievements.length > 0 && (
                 <div className="achievement" id="achievement" style={{backgroundColor: theme.secondary}}>
                 <div className="achievement-body">
                     <h1 style={{color: theme.primary}}>Achievements</h1>
@@ -29,7 +29,7 @@ function Achievement() {
                     ))}
                 </div>
             </div>
-            )}
+            )} */}
         </>
     )
 }

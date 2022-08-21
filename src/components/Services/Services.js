@@ -11,7 +11,7 @@ function Services() {
     const { theme } = useContext(ThemeContext);
     return (
         <>
-            {servicesData.length > 0 && (
+            {/* {servicesData.length > 0 && (
                 <div className="services" id="services" style={{backgroundColor:theme.secondary}}>
                     <div className="services-header">
                         <h1 style={{color: theme.primary}}>Services</h1>
@@ -31,7 +31,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-            )}
+            )} */}
        </>
     )
 }
