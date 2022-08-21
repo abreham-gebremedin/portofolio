@@ -30,16 +30,22 @@ function About() {
             </div>
 
             
-            <div className="about-body">
-                <div className="about-img">
+            <div className="about-body" >
+                <div className="about-img" id='second-image' >
                     <img 
-                        src={aboutData.image === 1 ? theme.aboutimg1 : theme.aboutimg2}  
+                        src={aboutData.image === 2 ? theme.aboutimg1 : theme.aboutimg3}  
                         alt="" 
                     />
                 </div>
                 <div className="about-description">
                     <p style={{color:theme.tertiary80}}> <br/><br/>{aboutData.description3}</p> 
+                </div><div className="about-img" id='firist-image' >
+                    <img 
+                        src={aboutData.image === 2? theme.aboutimg3: theme.aboutimg3}  
+                        alt="" 
+                    />
                 </div>
+
                 
             </div>
         </div>

@@ -4,7 +4,7 @@ import {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
     yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow
+    contactsRed,contactsYellow,distance
 } from './images'
 
 
@@ -89,6 +89,7 @@ export const bwThemeDark = {
     tertiary50: '#eaeaea80',
     aboutimg1: bwThemeboy,
     aboutimg2: bwThemegirl,
+
     eduimg: eduBlack,
     expimg: expBlack,
     contactsimg: contactsBlack
@@ -132,6 +133,8 @@ export const blueThemeDark = {
     tertiary50: '#eaeaea80',
     aboutimg1: blueThemeboy,
     aboutimg2: blueThemegirl,
+    aboutimg3: distance,
+
     eduimg: eduBlue,
     expimg: expBlue,
     contactsimg: contactsBlue

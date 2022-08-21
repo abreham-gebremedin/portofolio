@@ -73,6 +73,9 @@
     flex: 0.5;
 }
 
+#firist-image{
+  display: none;
+}
 @media (min-width: 992px) and (max-width: 1380px) {
 
     .about-description > h2 {
@@ -86,6 +89,12 @@
     .about-img>img {
         width: 300px;
     } 
+    #firist-image{
+      display: none;
+    }
+    #second-image{
+      display: flex;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -122,6 +131,12 @@
     .about-img > img {
         width: 250px;
         flex: 0.4;
+    }
+    #firist-image{
+      display: flex;
+    }
+    #second-image{
+      display: none;
     }
 
 }
@@ -171,5 +186,8 @@
 
     .about-img > img {
         width: 200px;
+    }
+    #second-image{
+      display: none;
     }
 }

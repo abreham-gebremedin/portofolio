@@ -192,15 +192,14 @@
   }
   .landing--container-right {
     box-sizing: border-box;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     flex: initial;
     height: 70%;
     width: 100%;
     background-color: #eaeaea;
     align-items: center;
     justify-content: center;
-    padding: 0 2rem;
-  }
+   }
   .lcr--content {
     margin-top: 20%;
     margin-right: initial;
@@ -217,7 +216,7 @@
   .lcr--content p {
     font-size: 0.8rem;
     text-align: center;
-    margin: 1 auto;
+    margin: 1 1;
     width: 90%;
     text-align:justify;
     text-justify: inter-word;
@@ -250,7 +249,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
   .landing {
-    height: 100%;
+    height: fit-content;
   }
 
   .landing--img {
