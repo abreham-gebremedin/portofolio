@@ -67,24 +67,8 @@ export const projectsData = [
         image: six
     },
 
-    {
-        id: 7,
-        projectName: 'React project Company website',
-        projectDesc: 'This is A freelance react and Node js project with MongoDB to develop an official company website you can check the demo',
-        tags: ['React JS', 'Node JS', 'MongoDB'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://classy-stroopwafel-70e722.netlify.app',
-        image: one
-    },
-    {  
-        id: 8,
-        projectName: 'Mobile money',
-        projectDesc: 'This project was developed for mobile money application, we have used Spring Boot Java framework for backend development',
-        tags: ['Spring boot', 'Java','Mysql'],
-        code: 'https://github.com/abreham-gebremedin/springapp',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: eight
-    },
+
+
 ]
 
 
